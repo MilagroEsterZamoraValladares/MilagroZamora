@@ -5,10 +5,13 @@ services:
     ports:
       - 5432:5432
     environment:
+      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: abc123
+      POSTGRES_DB: mito_estudiantes
   admin:
     image: dpage/pgadmin4
     restart: always
+    #el db es el hostname
     depends_on:
       - db
     ports:
