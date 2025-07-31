@@ -1,4 +1,4 @@
-package org.example.milagrozamora;
+package org.example.milagrozamora.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

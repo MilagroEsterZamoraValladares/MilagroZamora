@@ -1,7 +1,8 @@
-package org.example.milagrozamora;
+package org.example.milagrozamora.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
+
 import javax.validation.constraints.*;
 import java.util.Set;
 

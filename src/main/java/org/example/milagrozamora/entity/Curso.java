@@ -1,4 +1,4 @@
-package org.example.milagrozamora;
+package org.example.milagrozamora.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
